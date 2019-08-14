@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>MyPortfolio</title>
+</head>
+<body>
+    <header>
+        <a id="start" class="anchor" href="#top"><h1>MyPortfolio</h1></a>
+            <nav>
+                <div class="header-menu">
+                    <div class="mbars">
+                        <span></span>      
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                <ul>
+                    <li><a class="anchor" href="#um">About Me</a></li>
+                    <li><a class="anchor" href="#dois">My projects</a></li>
+                    <li><a class="anchor" href="#tres">Contacts</a></li>
+                    <li><input type="checkbox" id="switch" /><label for="switch">Toggle</label></li>
+                    <li><div class="language"><a>Eng</a></div></li>
+                </ul>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <section class="parallax" id="top">
+            <div class="paratext">
+                <h2>PARALLAXLOGO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Rerum reiciendis, itaque, alias provident non voluptas similique soluta nihil blanditiis 
+                    corporis atque veniam, adipisci excepturi dolorem. 
+                    Ullam architecto laborum blanditiis at.</p>
+            </div>
+        </section>
+        <section class="about">
+            <h2 id="um">About Me</h2>
+            <div class="blockabout">
+                    <p class="textabout">
+                        Меня зовут Вадим Рыбко. Я студент 4-го курса <a class="ONPU"id="onpu">ОНПУ ИКС</a> и начинающий Front-End разработчик.
+                        В университете изучаю такие технологии как Java 8, HTML5+CSS3, JavaScript.
+                        В 2018 году проходил курсы Front-End разработки, где более подробно изучил 
+                        HTML5, CSS3 JavaScript ES6, jQuery, Bootstrap4.
+                        После окончания курсов тренировал навыки, выполняя задания на <a class="FREE" id="freecode">freeCodeCamp</a>
+                        и сделал несколько проектов различной тематики.
+                        Цель на данный момент - найти место работы, на котором смогу развивать свои умения, 
+                        рассширять и углублять знания Front-End разработки и получить опыт работы в дружелюбной команде.
+                        А также - новые интересные проекты.
+                    </p>
+                <div class="imgabout">
+                    <div class="univer">
+                        <img src="img/Odessa.png" alt="">
+                        <a href="https://opu.ua" target="_blank">Одесский национальный политехнический университет</a>
+                    </div>
+                    <div class="camp">
+                        <img src="img/fcc.png" alt="">
+                        <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="langs">
+                <p id="techno">В разработке своих проектов использую :</p>
+                <div class="rotors">
+                    <div class="rot"><img src="img/html.png" alt=""><p><a href="https://ru.wikipedia.org/wiki/HTML5" target="_blank">HTML5</a></p></div>
+                    <div class="rot"><img src="img/badge-css-3-512.png" alt=""><p><a href="https://professorweb.ru/my/css/css_theory/level1/1_1.php" target="_blank">CSS3</a></p></div>
+                    <div class="rot"><img src="img/javascript-logo-8892AEFCAC-seeklogo.com.png" alt=""><p><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript" target="_blank">JavaScript</a></p></div>
+                    <div class="rot"><img src="img/jquery.png" alt=""><p><a href="https://jquery.com" target="_blank">jQuery</a></p></div>
+                    <div class="rot"><img src="img/bootstrap-4-logo-png-transparent.png" alt=""><p><a href="https://getbootstrap.com" target="_blank">Bootstrap 4</a></p></div>
+                </div>    
+                <p id="tools">Работаю с такими инструментами как :</p>
+                <div class="static">
+                    <div class="stat"><img src="img/Visual_Studio_code_logo.png" alt=""><p><a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a></p></div>
+                    <div class="stat"><img src="img/github-logo-icon-16.png" alt=""><p><a href="github.com/myPortfolio/myPortfolio.github.io" target="_blank">GitHub</a></p></div>
+                    <div class="stat"><img src="img/Git-Icon-1788C.png" alt=""><p><a href="https://git-scm.com/book/ru/v1/Введение-Основы-Git" target="_blank">git</a></p></div>
+                    <div class="stat"><img src="img/validatoe.png" alt=""><p><a href="https://validator.w3.org" target="_blank">Validator W3C</a></p></div>
+                    <div class="stat"><img src="img/ph.png" alt=""><p><a href="https://ru.wikipedia.org/wiki/Adobe_Photoshop" target="_blank">Photoshop CS6</a></p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2 id="dois">My projects</h2>
+            <div class="proj">
+                <div class="pages open" id="auto">
+                    <p>Сайт автосервиса Auto-Focus</p>
+                    <img src="img/icaros.PNG" alt="">
+                </div>
+                <div class="pages" id="store">
+                    <p>Интернет-магазин i.Store</p>
+                    <img src="img/istorei.PNG" alt="">
+                </div>
+                <div class="pages" id="space">
+                    <p>Сайт-презентация Кратчайшая История Времени</p>
+                    <img src="img/ispace.PNG" alt="">
+                </div>
+            </div>
+            <div class="tabs">
+                <p id="carslogo" class="techs mostrar">HTML5 CSS3 JavaScript jQuery Bootstrap4</p>                      
+                <p id="carstext" class="text show">
+                        Проект сайта автосервиса широкого спектра технологических услуг. 
+                        Содержит в себе описание всех товаров и предоставляемых услуг, 
+                        график работы, адрес с отметкой на карте и контактную информацию. 
+                        Адаптивный дизайн сайта позволяет просматривать его на компьютерах, 
+                        ноутбуках, и мобильных устройствах с различными форматом и расширением экрана.
+                </p>               
+                <a class="seefile fir viver" id="prim" href="https://wlad05rybko.github.io/index.html" target="_blank"><button id="visit">Посетить Сайт</button></a>
+                <a class="seefile sec viver" id="seg" href="https://github.com/Wlad05Rybko/Wlad05Rybko.github.io" target="_blank"><button id="view">Открыть Код</button></a>   
+                <p id="shoplogo" class="techs">HTML5 CSS3 JavaScript jQuery Bootstrap4</p>                    
+                <p id="shoptext" class="text">Проект интернет-магазина разных видов товаров.
+                        На сайте присутствует описание предоставляемых товаров,
+                        распределенных по разделам: Общее, Новинки, Популярное.
+                        Также доступны форма регистрации и ссылки на страницы в соцсетях.
+                        Сайт легко открывается на различных устройствах благодаря адаптивному дизайну,
+                        рассчитанному под разные размеры экрана.
+                </p>
+                <a class="seefile fir" id="ter" href="https://istore01demo.github.io/index.html" target="_blank"><button id="visit">Посетить Сайт</button></a>
+                <a class="seefile sec" id="quarta" href="https://github.com/iStore01Demo/iStore01Demo.github.io" target="_blank"><button id="view">Открыть Код</button></a>
+                <p id="spacelogo" class="techs">HTML5 CSS3 JavaScript jQuery Adobe-Photoshop</p>
+                <p id="spacetext" class="text">Проект сайта-презентации, основанный на книге
+                        Стивена Хокинга «Кратчайшая история времени» и научно-популярном фильме Cosmos: A Spacetime Odyssey.
+                        В проекте перечисленны основные события в истории Вселенной в хронологическом порядке.
+                        Описание сопровождается картинками с анимацией. Также приведены ссылки на источники с расширенной информацией.
+                        Сайт обладает адаптивным дизайном, рассчитанным на различные устройства с разным расширением экрана. 
+                </p>
+                <a class="seefile fir" id="cinco" href="https://vadim05rybko.github.io/index.html" target="_blank"><button id="visit">Посетить Сайт</button></a>
+                <a class="seefile sec" id="seis" href="https://github.com/Vadim05Rybko/Vadim05Rybko.github.io" target="_blank"><button id="view">Открыть Код</button></a>
+            </div>
+        </section>
+            
+        <section class="contacts">
+            <h2 id="tres">Contacts</h2>
+            <p class="expl">Вы можете связаться со мной по телефону или написать сообщение</p>
+            <div class="conts">
+                <a href="tel:+380684184938" title="Kyivstar"><img src="img/tele.png" alt=""></a><p>+380684184938</p>
+                <a href="mailto:supermisha20170607@gmail.com" title="Gmail"><img src="img/mail2.png" alt=""></a><p>supermisha20170607@gmail.com</p>
+                <a href="tg://resolve?domain=@Vadim_Rybko" title="Telegram"><img src="img/telegram.png" alt=""></a><p>@Vadim_Rybko</p>
+                <a href="viber://chat?number=+380684184938" title="Viber"><img src="img/viber-icon.png" alt=""></a><p>+380684184938</p>
+                <a href="https://github.com/Wlad67" target="_blank" title="GitHub"><img src="img/github-icon-png-15.jpg" alt=""></a><p>GitHub</p>
+            </div>
+        </section>
+    </main>
+
+    <footer><p>Copyright &copy myPortfolio || Vadim Rybko, 2019</p></footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
