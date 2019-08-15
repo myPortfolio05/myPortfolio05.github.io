@@ -121,8 +121,8 @@ $(document).ready(function(){
             $('#seg').addClass('viver');
             
             $('button').empty();           
-            $('button#visit').wrapInner('Visit Site');
-            $('button#view').wrapInner('View Source');
+            $('button .visit').wrapInner('Visit Site');
+            $('button .view').wrapInner('View Source');
             imgChange(60, 7);          
             textChange();
         }
@@ -180,8 +180,8 @@ $(document).ready(function(){
             $('#seg').addClass('viver');
 
             $('button').empty();           
-            $('button#visit').wrapInner('Посетить Сайт');
-            $('button#view').wrapInner('Открыть Код');
+            $('button .visit').wrapInner('Посетить Сайт');
+            $('button .view').wrapInner('Открыть Код');
             imgChange(70, 37);                              
             textChange();
         }else{}
