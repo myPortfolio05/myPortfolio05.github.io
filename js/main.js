@@ -247,7 +247,7 @@ $(document).ready(function(){
     $('#switch').click(function(){
         $('body').toggleClass('dark');
         if($('body').hasClass('dark')){
-            $('.parallax').css('background-image', 'url(file:///C:/Users/USER/Desktop/CV/img/night.jpg)');
+            $('.parallax').css('background-image', 'url(https://myportfolio05.github.io/img/night.jpg)');
             $('button').css('box-shadow','0 1px 5px rgba(45, 120, 230, 0.5)'); 
             $('button').css('background-color','rgb(240, 240, 240)');
             $('button').css('color','rgb(3, 5, 20)');
@@ -262,7 +262,7 @@ $(document).ready(function(){
                 })
            } 
         else if($('body').not('dark')){
-            $('.parallax').css('background-image', 'url(file:///C:/Users/USER/Desktop/CV/img/day.jpg)');
+            $('.parallax').css('background-image', 'url(https://myportfolio05.github.io/img/day.jpg)');
             $('button').css('box-shadow','0 10px 15px rgba(45, 120, 230, 0.5)');
             $('button').css('color','rgb(248, 248, 248)');
             $('button').css('background-color','rgb(28, 125, 170)');
