@@ -120,11 +120,11 @@ section{
 .paratext{
     padding-top: 10%;
     position: fixed;
+    margin-left: 34%;
+    margin-right: 24%;
 }
 h2{
     padding-top: 50px;
-    text-align: center;
-}.paratext p{
     text-align: center;
 }
 .blockabout{
@@ -698,9 +698,7 @@ footer{
         border: 3px solid rgb(255, 130, 0);
         transform: rotate(360deg);
     }
-    .rotors .rot p{
-        margin: 0px;
-    }
+    .rotors .rot p{margin: 0px;}
     .static{
         display: inline-flex;
         position: relative;
@@ -711,9 +709,7 @@ footer{
         transition: .3s ease-in-out;
         color: #babec200;
     }
-    .static .stat:hover{
-        color: inherit;
-    }
+	.static .stat:hover{color: inherit;}
     .static .stat img{
         width: 100px; height: 100px;
         position: relative;
