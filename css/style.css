@@ -1,11 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css?family=Sniglet&display=swap');
-
 body{
     width: 100%; height: 100%;
     margin: 0; padding: 0;
     font-family: 'Sniglet', cursive;
-    transition: all .3s;
+    transition: all .24s;
     background: whitesmoke;
     overflow-x: hidden;
 }
@@ -178,7 +176,7 @@ h2{
     display: inline;
     margin-right: 15px;
     color: rgba(169, 169, 169, 0);
-    transition: .3s ease-out;
+    transition: .3s ease-in-out;
 }
 .rotors .rot:hover{
     color: rgb(255, 130, 0);
@@ -189,7 +187,7 @@ h2{
     padding: 15px;
     border-radius: 100%;
     border: 3px solid rgba(245, 245, 245, 0);
-    transition: .5s ease-out;
+    transition: .5s ease-in-out;
     z-index: 15;
 }
 .rotors .rot img:hover{
@@ -206,7 +204,7 @@ h2{
 .static .stat{
     display: inline;
     margin-right: 15px;
-    transition: .3s ease-out;
+    transition: .3s ease-in-out;
     color: #babec200;
 }
 .static .stat:hover{
@@ -216,7 +214,7 @@ h2{
     width: 100px; height: 100px;
     position: relative;
     padding: 5px;
-    transition: .5s ease-out;
+    transition: .5s ease-in-out;
     z-index: 15;
 }
 .static .stat img:hover{
@@ -683,7 +681,7 @@ footer{
         display: inline;
         margin-right: 0px;
         color: rgba(169, 169, 169, 0);
-        transition: .3s ease-out;
+        transition: .3s ease-in-out;
     }
     .rotors .rot:hover{
         color: rgb(255, 130, 0);
@@ -694,7 +692,7 @@ footer{
         padding: 15px;
         border-radius: 100%;
         border: 3px solid rgba(245, 245, 245, 0);
-        transition: .5s ease-out;
+        transition: .5s ease-in-out;
         z-index: 15;
     }
     .rotors .rot img:hover{
@@ -711,7 +709,7 @@ footer{
     .static .stat{
         display: inline;
         margin-right: 7px;
-        transition: .3s ease-out;
+        transition: .3s ease-in-out;
         color: #babec200;
     }
     .static .stat:hover{
@@ -721,7 +719,7 @@ footer{
         width: 100px; height: 100px;
         position: relative;
         padding: 5px;
-        transition: .5s ease-out;
+        transition: .5s ease-in-out;
         z-index: 15;
     }
     .static .stat img:hover{
@@ -771,14 +769,14 @@ footer{
     .static .stat{
         display: inline;
         margin-right: 0px;
-        transition: .3s ease-out;
+        transition: .3s ease-in-out;
         color: #babec200;
     }
     .static .stat img{
         width: 100px; height: 100px;
         position: relative;
         padding: 10px;
-        transition: .5s ease-out;
+        transition: .5s ease-in-out;
         z-index: 15;
     }
     .static .stat:nth-child(1) img{
