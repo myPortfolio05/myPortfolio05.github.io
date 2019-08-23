@@ -70,9 +70,9 @@ $(document).ready(function(){
             $('.language a').replaceWith('<div class="language"><a>Ru</a></div>');   
             $('.textabout').replaceWith('<p class="textabout">My name is Vadim Rybko. '
             +'I`m studying in 4th year at <a id="onpu">ONPU ICS</a> and beginner in Front-End development. '
-            +'In univercity study such technologies as Java 8, HTML5 + CSS3, JavaScript. '
+            +'In univercity study such technologies as Java 8, HTML5+CSS3, JavaScript. '
             +'In 2018th passed Front-End development courses, where studied in more detail HTML5, '
-            +'CSS3 JavaScript ES6, jQuery, Bootstrap 4. After graduating the courses I trained my skills, '
+            +'CSS3, JavaScript ES6, jQuery, Bootstrap 4. After graduating the courses I trained my skills, '
             +'by task solving on <a id="freecode">freeCodeCamp</a> and made a few various projects. '
             +'Rigth now my goal is to find a job where I`ll can improve my skills, expand and deepen knowleges '
             +'in Front-End development and fill up my professional experience in a friendly team. '
@@ -85,8 +85,8 @@ $(document).ready(function(){
             $('#store').replaceWith('<div class="pages" id="store"><p>The online shop i.Store (ru)</p><img src="img/istorei.PNG" alt=""></div>');
             $('#space').replaceWith('<div class="pages" id="space"><p>The presentation site A Briefer History of Time (ru)</p><img src="img/ispace.PNG" alt=""></div>');            
 
-            $('#carslogo').replaceWith('<p id="carslogo" class="techs mostrar">HTML5 CSS3 JavaScript jQuery Bootstrap 4</p>');
-            $('#shoplogo').replaceWith('<p id="shoplogo" class="techs">HTML5 CSS3 JavaScript jQuery Bootstrap 4</p>');
+            $('#carslogo').replaceWith('<p id="carslogo" class="techs mostrar">HTML5 CSS3 JavaScript jQuery Bootstrap4</p>');
+            $('#shoplogo').replaceWith('<p id="shoplogo" class="techs">HTML5 CSS3 JavaScript jQuery Bootstrap4</p>');
             $('#spacelogo').replaceWith('<p id="spacelogo" class="techs">HTML5 CSS3 JavaScript jQuery Adobe-Photoshop</p>');
 
             $('#carstext').replaceWith('<p id="carstext" class="text show">'
@@ -131,9 +131,9 @@ $(document).ready(function(){
             $('.language a').replaceWith('<div class="language"><a>Eng</a></div>');
             $('.textabout').replaceWith('<p class="textabout">Меня зовут Вадим Рыбко. '
             +'Я студент 4-го курса <a id="onpu">ОНПУ ИКС</a> и начинающий Front-End разработчик. '
-            +'В университете изучаю такие технологии как Java 8, HTML5 + CSS3, JavaScript. '
+            +'В университете изучаю такие технологии как Java 8, HTML5+CSS3, JavaScript. '
             +'В 2018 году проходил курсы Front-End разработки, где более подробно изучил HTML5, '
-            +'CSS3 JavaScript ES6, jQuery, Bootstrap 4. После окончания курсов тренировал навыки, '
+            +'CSS3, JavaScript ES6, jQuery, Bootstrap 4. После окончания курсов тренировал навыки, '
             +'выполняя задания на <a id="freecode">freeCodeCamp</a> и сделал несколько проектов различной тематики. '
             +'Цель на данный момент - найти место работы, на котором смогу развивать свои умения, расширять и углублять '
             +'знания Front-End разработки и получить опыт работы в дружелюбной команде. '
@@ -146,8 +146,8 @@ $(document).ready(function(){
             $('#store').replaceWith('<div class="pages" id="store"><p>Интернет-магазин i.Store</p><img src="img/istorei.PNG" alt=""></div>');
             $('#space').replaceWith('<div class="pages" id="space"><p>Сайт-презентация Кратчайшая История Времени</p><img src="img/ispace.PNG" alt=""></div>');
 
-            $('#carslogo').replaceWith('<p id="carslogo" class="techs mostrar">HTML5 CSS3 JavaScript jQuery Bootstrap 4</p>');
-            $('#shoplogo').replaceWith('<p id="shoplogo" class="techs">HTML5 CSS3 JavaScript jQuery Bootstrap 4</p>');
+            $('#carslogo').replaceWith('<p id="carslogo" class="techs mostrar">HTML5 CSS3 JavaScript jQuery Bootstrap4</p>');
+            $('#shoplogo').replaceWith('<p id="shoplogo" class="techs">HTML5 CSS3 JavaScript jQuery Bootstrap4</p>');
             $('#spacelogo').replaceWith('<p id="spacelogo" class="techs">HTML5 CSS3 JavaScript jQuery Adobe-Photoshop</p>');
             
             $('#carstext').replaceWith('<p id="carstext" class="text show">'
