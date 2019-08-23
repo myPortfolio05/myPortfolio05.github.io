@@ -120,8 +120,8 @@ section{
 .paratext{
     padding-top: 10%;
     position: fixed;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 37%;
+    margin-right: 33%;
 }
 h2{
     padding-top: 50px;
@@ -540,13 +540,16 @@ footer{
         margin: 40px 0 50px 0px;
         display: inline-block;
     }
-    .conts a{display: block;}
+    .conts a{
+        display: block;
+    }
     .conts img{
         width: 50px; height: 50px;
         display: inline-flex;
         margin: 50px 0px 10px 0px;
         transition: .36s ease-in-out;
-    }.conts img:hover{
+    }
+    .conts img:hover{
         transform: rotate(36deg);
     }
     .conts p{
@@ -698,7 +701,9 @@ footer{
         border: 3px solid rgb(255, 130, 0);
         transform: rotate(360deg);
     }
-    .rotors .rot p{margin: 0px;}
+    .rotors .rot p{
+	margin: 0px;
+    }
     .static{
         display: inline-flex;
         position: relative;
@@ -709,7 +714,9 @@ footer{
         transition: .3s ease-in-out;
         color: #babec200;
     }
-	.static .stat:hover{color: inherit;}
+    .static .stat:hover{
+        color: inherit;
+    }
     .static .stat img{
         width: 100px; height: 100px;
         position: relative;
@@ -782,6 +789,10 @@ footer{
     }
 }
 @media screen and (max-width: 530px){
+    .paratext{
+    margin-left: 33%;
+    margin-right: 33%;
+   }
     .header-menu ul{
         display: none;
         margin: -30px 0px 10px 10px;
