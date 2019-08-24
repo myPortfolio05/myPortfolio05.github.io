@@ -70,13 +70,13 @@ $(document).ready(function(){
             $('.language a').replaceWith('<div class="language"><a>Ru</a></div>');   
             $('.textabout').replaceWith('<p class="textabout">My name is Vadim Rybko. '
             +'I`m studying in 4th year at <a id="onpu">ONPU ICS</a> and beginner in Front-End development. '
-            +'In univercity study such technologies as Java 8, HTML5+CSS3, JavaScript. '
+            +'In university study such technologies as Java 8, HTML5+CSS3, JavaScript. '
             +'In 2018th passed Front-End development courses, where studied in more detail HTML5, '
             +'CSS3, JavaScript ES6, jQuery, Bootstrap 4. After graduating the courses I trained my skills, '
             +'by task solving on <a id="freecode">freeCodeCamp</a> and made a few various projects. '
-            +'Rigth now my goal is to find a job where I`ll can improve my skills, expand and deepen knowleges '
+            +'Right now my goal is to find a job where I`ll can improve my skills, expand and deepen knowledges '
             +'in Front-End development and fill up my professional experience in a friendly team. '
-            +'And new interesting projects also.</p>');  
+            +'And new interesting projects as well.</p>');  
             $('.imgabout .univer a').replaceWith('<a href="https://opu.ua" target="_blank">Odessa National Polytechnic University</a>');
             $('#techno').replaceWith('<p id="techno">In the development of my projects use :</p>');
             $('#tools').replaceWith('<p id="tools">Work with such tools as :</p>');
@@ -106,9 +106,9 @@ $(document).ready(function(){
 
             $('#spacetext').replaceWith('<p id="spacetext" class="text">'
             +'The presentation site based on the book A Briefer History of Time by '
-            +'Stephen Hawking and the science populary series Cosmos: A Spacetime Odyssey. '
+            +'Stephen Hawking and the science popular series Cosmos: A Spacetime Odyssey. '
             +'The project lists the main events in the history of the Universe in chronological order. '
-            +'The description is accompanied by pictures with animation. '
+            +'Description is accompanied by pictures with animation. '
             +'Links to sources with extended information are also provided. '
             +'The site has an adaptive design, developed for various devices with different screen extensions.</p>');
 
@@ -168,7 +168,7 @@ $(document).ready(function(){
             $('#spacetext').replaceWith('<p id="spacetext" class="text">'
             +'Проект сайта-презентации, основанный на книге '
             +'Стивена Хокинга «Кратчайшая история времени» и научно-популярном фильме Cosmos: A Spacetime Odyssey. '
-            +'В проекте перечисленны основные события в истории Вселенной в хронологическом порядке. '
+            +'В проекте перечислены основные события в истории Вселенной в хронологическом порядке. '
             +'Описание сопровождается картинками с анимацией. Также приведены ссылки на источники с расширенной информацией. '
             +'Сайт обладает адаптивным дизайном, рассчитанным на различные устройства с разным разрешением экрана.</p>');
 
