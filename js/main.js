@@ -74,7 +74,7 @@ $(document).ready(function(){
             +'In 2018th passed Front-End development courses, where studied in more detail HTML5, '
             +'CSS3, JavaScript ES6, jQuery, Bootstrap 4. After graduating the courses I trained my skills, '
             +'by task solving on <a id="freecode">freeCodeCamp</a> and made a few various projects. '
-            +'Right now my goal is to find a job where I`ll can improve my skills, expand and deepen knowledges '
+            +'Right now my goal is to find a job where I`ll can improve my skills, expand and deepen knowledge '
             +'in Front-End development and fill up my professional experience in a friendly team. '
             +'And new interesting projects as well.</p>');  
             $('.imgabout .univer a').replaceWith('<a href="https://opu.ua" target="_blank">Odessa National Polytechnic University</a>');
